@@ -1,49 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <style>
-        body{
-            background: #d5cb3b;
-            align-items: center;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: small;
+''' GrPA 1 - Variables and Assignment - GRADED
+Solve all the below tasks related to variables.
+This exercise gives you practice in working with variables.
+Note: Do not take input or print output as they are taken care by the suffix code(evaluator).
+'''
 
-        }
-        .div{
-            color: aqua;
-            background: #000;
-            
-        }
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Learning Form Element </title>
-</head>
-    <body>
-        <for">
-            <div>
-                <label for="username">Enter your username: </label>
-                <input type="text" placeholder="username" id="username">
-            </div>
-            <div>
-                <label for="password">Enter your password: </label>
-                <input type="password" placeholder="type your password here" id="password">
-            </div>
-            <div>
-                <label for="number">Enter your number: </label>
-                <input type="number" placeholder="Provide contact detail's" id="number">
-            </div>
-            <div>
-                <button>Submit</button>
-            </div>
-            <div>
-                <input type="text" inputmode="email" inputmode="number" placeholder="username, number, email">
-            </div>
-            <button ></button>
-        </form>
-    </body>
+#answer - 
 
-    <script>
+x1 = input()
+x2 = input()
+y1 = input()
+y2 = input()
+y3 = input()
+z = input()
 
-    </script>
-</html>
+x1, x2 = x2, x1 # swap the values of `x1` and `x2`
+
+y1, y2, y3 = y2, y3, y1 # do a circular swap of `y1`, `y2` and `y3`  like y1 = y2, y2 = y3, y3 = y1 
+
+a = z # create a new variable `a` with the value of `z`
+
+del z  # delete the variable `z`
+
+print(x1)
+print(x2)
+print(y1)
+print(y2)
+print(y3)
+print(a)
