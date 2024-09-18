@@ -12,7 +12,7 @@ The repository is organized into 12 weekly folders, with each folder containing 
 
 ## Authors
 
-- This repository is maintained by [ Shashwat Upadhyay](https://github.com/Shashwatology). For any queries or support, feel free to reach out. 
+- This repository is maintained by [ Shashwat Upadhyay](https://github.com/Shashwatology) and [Ritesh Sah](https://github.com/riteshsah235). For any queries or support, feel free to reach out. 
 
 
 
@@ -22,6 +22,6 @@ The repository is organized into 12 weekly folders, with each folder containing 
 ## 🔗 Links
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](bento.me/shashwatupadhyay)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/shashwat-upadhyay-13abb020b/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shashwat-upadhyay-13abb020b/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/_Shashwatology)
 
