@@ -10,13 +10,23 @@ This repository contains all the Graded Programming Assessments (GRPA) for the I
 ## Structure
 The repository is organized into 12 weekly folders, with each folder containing the GRPA for that particular week. Each week includes a set of all question with there solution  mention in the GRPA of the particular week .
 
-## Authors
+## **🛠️ Tech Stack**
+* Python 
 
-- This repository is maintained by [ Shashwat Upadhyay](https://github.com/Shashwatology) and [Ritesh Sah](https://github.com/riteshsah235). For any queries or support, feel free to reach out. 
+## **📸 Contributors**
+
+| Name | Role | GitHub |
+| ----- | ----- | ----- |
+| Shashwat Upadhyay | Project Lead | [GitHub Profile](https://github.com/shashwatology) |
+| Ritesh Sah | Contributor | [GitHub Profile](https://github.com/riteshsah235)  |
 
 
+## **📧 Contact**
 
-
+For queries, contact:  
+**Shashwat Upadhyay**  
+📩 Email: contact.prepzen@gmail.com  
+🌐 Portfolio:   [Bento ](https://bento.me/shashwatupadhyay)
 
 
 ## 🔗 Links
