@@ -8,24 +8,34 @@ Note: Finding the tenth_month will be a bit of challange. If you are stuck open 
 '''
 
 #Answer 
+age = int(input())
+dob = input().strip()   # format: dd/mm/yy
 
-# Sample inputs (# note: The values given in the prefix code(grey) will be changed by the autograder according to the testcase while running them.
+day, month, year = map(int, dob.split('/'))
 
-s = "hello pyhton"
-course_code = "24t2cs1002" # 24 - year, t2 - term 2, cs1002 - course id
-# <eoi>
+# Fifth birthday
+fifth_birthday = f"{day}/{month}/{year + 5}"
 
-output1 = s[2] # str: get the third character of s
+# Last birthday
+last_birthday = f"{day}/{month}/{year + age}"
 
-output2 = s[-4] # str: get the fourth last character of s
+# Same day after 10 months
+new_month = month + 10
+new_year = year
 
-output3 = s[:3] # str: get the first 3 characters of s
+if new_month > 12:
+    new_month -= 12
+    new_year += 1
 
-output4 = s[::2] # str: get every second character of s
+tenth_month = f"{day}/{new_month}/{new_year}"
 
-output5 = s[-3:] # str: get the last 3 characters of s
+print(f"{tenth_month}, {fifth_birthday}, {last_birthday}")
 
-output6 = s[::-1]  # str: get the reverse of s
+weight = float(input())
 
-course_term = int(course_code[3]) # int: get the term of the year as number from course_code
-course_year = int(course_code[0 :2]) # int: get the year as two digit number from course_code
+kg = int(weight)
+grams = int(round((weight - kg) * 1000))
+
+weight_readable = f"{kg} kg {grams} grams"
+
+print(weight_readable)
