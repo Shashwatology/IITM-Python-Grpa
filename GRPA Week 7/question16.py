@@ -1,6 +1,3 @@
-
-
-
 def num_to_word(num: int) -> str:
     '''
     Given an integer, generate a string with its digits as words separated by hyphens.
