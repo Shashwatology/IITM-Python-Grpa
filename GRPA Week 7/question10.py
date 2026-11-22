@@ -1,5 +1,5 @@
 
-
+ 
 def delete_first_three(l: list) -> None:
     '''
     Given a list, delete the first three elements in the list.
